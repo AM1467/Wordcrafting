@@ -1,0 +1,3 @@
+cd C:\Users
+heroku login
+heroku deploy:war --war Wordcrafting2.war --app wordcrafting

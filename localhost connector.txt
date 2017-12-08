@@ -1,0 +1,13 @@
+try 
+        {
+            
+            Class.forName("com.mysql.jdbc.Driver");
+            String techworld3g = "jdbc:mysql://localhost:3306/profile?user=rin&password=6982908949";
+            Connection myConnection = DriverManager.getConnection(techworld3g);          
+            return myConnection;
+            
+        } catch (ClassNotFoundException | SQLException ex) {Logger.getLogger(Db_Connection.class.getName()).log(Level.SEVERE, null, ex);}
+
+
+
+mysql://bb55ba4cd71745:865821b3@eu-cdbr-west-01.cleardb.com/heroku_331d927ee2d7245?reconnect=true
